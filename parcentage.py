@@ -1,0 +1,26 @@
+name=input("Please Enter your name= ")
+fname=input("Please Enter Your Father Name= ")
+Class=int(input("Please Enter your class= "))
+pushto=int(input("Pushto marks= "))
+dari=int(input("dari marks= "))
+english=int(input("english marks= "))
+math=int(input("math marks= "))
+physic=int(input("physic marks= "))
+chemistry=int(input("chemistry marks= "))
+biology=int(input("Biology marks= "))
+obt=pushto+dari+english+math+physic+chemistry+biology
+per=obt/7
+print("Your Name is=%s"%name)
+print("Your Father Name is=%s"%fname)
+print("Your Name is=%d"%Class)
+print("Pushto Marks=%d"%pushto)
+print("Dari Marks=%d"%dari)
+print("English Marks=%d"%english)
+print("Math Marks=%d"%math)
+print("Physic Marks=%d"%physic)
+print("Chemistry Marks=%d"%chemistry)
+print("Biology Marks=%d"%biology)
+print("Obtained=%d"%obt)
+print("Percentage=%d"%per)
+
+
